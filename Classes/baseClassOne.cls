@@ -5,6 +5,7 @@ public abstract Class baseClassOne implements mainInterface{
     }*/
     
     public virtual String getDetails(){
+        system.debug('adityatest');
         return 'baseClassOne';
     }
 }
